@@ -1,0 +1,50 @@
+.Navbar ul{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(88, 105, 100);
+    margin: 0px;
+    padding-top: 45px;
+    align-items: center;
+    
+}
+
+.Navbar h1{
+    font-size: 45px;
+    font-family: Inter;
+}
+
+.Navbar ul li a{
+    color: rgba(117, 49, 49, 0.675);
+    margin-right: 50px;
+}
+
+.Navbar div{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(88, 105, 100);
+    padding-bottom: 15px;
+}
+
+.Navbar div button{
+    color: white;
+    background-color: rgba(117, 49, 49, 0.675);
+    font-weight: bolder;
+    font-size: 20px;
+    width: 155px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0px;
+    
+}
+
+.Navbar div button:hover{
+    background-color: rgb(234, 125, 9);
+    color: black;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+    border: 0px;
+    transition-duration:0.50s;
+    transform: translateY(-7px);
+}
