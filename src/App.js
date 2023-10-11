@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './componentes/secao/Navbar';
 import Sectionone from './componentes/secao/Sectionone';

@@ -1,7 +1,9 @@
+import Arte1 from '../image/Arte1.svg';
 function Sectiontwo() {
     return(
         <div>
-            <h1>Aqui ficará a segunda seção</h1>
+            ficará segunda parte
+            
         </div>
     )
 }
