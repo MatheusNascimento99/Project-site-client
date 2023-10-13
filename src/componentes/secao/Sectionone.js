@@ -10,15 +10,15 @@ function Sectionone() {
   return (
     <div className={styles.Sectionone}>
       <img src={pre}></img>
-      <div>
+      <div >
       <h1>Prazer, João!</h1>
-      <p>	Lorem ipsum cubilia potenti ut sit urna himenaeos, aliquet per litora class euismod praesent, <br/>
-        phasellus turpis lacinia tempus fusce feugiat. aptent litora diam elementum dictum gravida nullam<br/>
-         sodales aliquet class fringilla ante enim ultrices, id inceptos nisl a dui justo commodo aenean <br/>
-         interdum laoreet egestas sem. laoreet vitae nostra morbi nam rutrum quisque eros volutpat hac at <br/>
-         sollicitudin posuere, imperdiet pellentesque praesent eleifend non est eget dui pretium ligula elit <br/>
-         class, aliquam purus elementum eleifend accumsan nibh nunc cursus est taciti mi. eros commodo molestie<br/>
-          hendrerit class dictumst mauris blandit vel dapibus, blandit posuere lacinia nibh tortor inceptos quisque<br/>
+      <p>	Lorem ipsum cubilia potenti ut sit urna himenaeos, aliquet per litora class euismod praesent, 
+        phasellus turpis lacinia tempus fusce feugiat. aptent litora diam elementum dictum gravida nullam
+         sodales aliquet class fringilla ante enim ultrices, id inceptos nisl a dui justo commodo aenean 
+         interdum laoreet egestas sem. laoreet vitae nostra morbi nam rutrum quisque eros volutpat hac at 
+         sollicitudin posuere, imperdiet pellentesque praesent eleifend non est eget dui pretium ligula elit 
+         class, aliquam purus elementum eleifend accumsan nibh nunc cursus est taciti mi. eros commodo molestie
+          hendrerit class dictumst mauris blandit vel dapibus, blandit posuere lacinia nibh tortor inceptos quisque
            praesent scelerisque fusce, ipsum conubia semper augue tincidunt dolor laoreet a. 
       </p>
       </div>

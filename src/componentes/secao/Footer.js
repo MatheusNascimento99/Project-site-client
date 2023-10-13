@@ -8,8 +8,20 @@ import Arte3 from '../image/Arte3.svg';
 
 function Footer (){
     return(
-        <footer>
-           <Carousel className = {styles.Footer}>
+    <footer className={styles.Footer}> 
+            <div>
+            <h4> Jão Francisco </h4>
+            <h4>Todos os direitos reservados</h4>
+            <h5>Contatos</h5>
+        </div>
+      </footer>  
+        
+    )
+}
+
+export default Footer
+
+/*<Carousel className = {styles.Footer}>
            <Carousel.Item className='imgs'>
                 <img src={Arte1} text="First slide"  alt='ERROR' />
            <Carousel.Caption>
@@ -48,18 +60,5 @@ function Footer (){
             
           </Carousel.Caption>
           </Carousel.Item>
-          </Carousel>
-
-        
-            <div>
-            <h4> Jão Francisco </h4>
-            <h4>Todos os direitos reservados</h4>
-            <h5>Contatos</h5>
-        </div>
-        </footer>
-        
-    )
-}
-
-export default Footer
-
+          </Carousel>              
+                 */

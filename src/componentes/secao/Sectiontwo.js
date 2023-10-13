@@ -1,7 +1,10 @@
-import Arte1 from '../image/Arte1.svg';
+
+import styles from './Sectiontwo.module.css'
+
+
 function Sectiontwo() {
     return(
-        <div>
+        <div className={styles.Sectiontwo}>
             ficará segunda parte
             
         </div>

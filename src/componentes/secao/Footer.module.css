@@ -1,22 +1,3 @@
 .Footer{
-    background-color: rgb(88, 105, 100);
-    align-items: center;
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-around;
-}
-
-
-.Footer {
-    width: 100%;
-    
-    background-image: url("../image/pre.svg")
-    
-}
-
-
-.Footer img{
-    width: 750px;
-    height: 350px;
-    
+   text-align: center;
 }

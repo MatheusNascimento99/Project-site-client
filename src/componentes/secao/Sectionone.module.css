@@ -1,21 +1,54 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-image: url("../image/backgraoundSectionone.svg");
     
+    
+}
+
+.Sectionone div{
+    background: rgba(1, 9, 28, 0.0);
+}
+
+.Sectionone p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .Sectionone h1, p {
-    color: aliceblue;
+    color: rgb(220, 235, 243);
+    margin-right: 100px;
+    margin-left: -100px;
+    width: 500px;
+    margin-top: 25px;
+    background: rgba(1, 9, 28, 0.0  );
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    
 }
 
+
 .Sectionone{
-    
-    background-image: url("../image/Arte4.svg"), url("../image/Arte1.svg");
-    background-color: rgb(91, 51, 51);
+    background: rgba(1, 9, 28, 0.55);
     width: 100%;
-    height: 100%;
+    height: 450px;
     display: grid;
     grid-auto-flow: column;
-    
+       
     
 }
+
+.Sectionone img {
+    width: 750px;
+    margin-top: 50px;
+    background: rgba(1, 9, 28, 0.0);
+}
+
+
+
+
+
+
+/* box-shadow: 15px -10px 3px rgb(80, 60, 161);
+background-image: url("../image/Arte4.svg"), url("../image/Arte1.svg"); 
+filter: drop-shadow(0px 4px 4px rgba(0,0, 0.25, 0.10));*/
