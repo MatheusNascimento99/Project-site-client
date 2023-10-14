@@ -1,47 +1,52 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-image: url("../image/backgraoundSectionone.svg");
     
     
 }
 
 .Sectionone div{
-    background: rgba(1, 9, 28, 0.0);
+    
 }
 
 .Sectionone p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .Sectionone h1, p {
-    color: rgb(220, 235, 243);
+    color: rgb(15, 52, 72);
     margin-right: 100px;
     margin-left: -100px;
     width: 500px;
     margin-top: 25px;
-    background: rgba(1, 9, 28, 0.0  );
+    
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     
 }
 
 
 .Sectionone{
-    background: rgba(1, 9, 28, 0.55);
-    width: 100%;
+    background-image: url('../image/backgraoundSectionone.svg');
     height: 450px;
     display: grid;
     grid-auto-flow: column;
-       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
     
 }
 
 .Sectionone img {
     width: 750px;
     margin-top: 50px;
-    background: rgba(1, 9, 28, 0.0);
+    margin-bottom: 20px;
+    filter: contrast(200%);
+   
 }
 
 
@@ -51,4 +56,6 @@
 
 /* box-shadow: 15px -10px 3px rgb(80, 60, 161);
 background-image: url("../image/Arte4.svg"), url("../image/Arte1.svg"); 
-filter: drop-shadow(0px 4px 4px rgba(0,0, 0.25, 0.10));*/
+filter: drop-shadow(0px 4px 4px rgba(0,0, 0.25, 0.10));
+background: rgba(1, 9, 28, 0.0  );
+*/
