@@ -9,7 +9,7 @@ import Arte3 from '../image/Arte3.svg';
 function Footer (){
     return(
     <footer className={styles.Footer}> 
-            <div>
+            <div >
             <h4> Jão Francisco </h4>
             <h4>Todos os direitos reservados</h4>
             <h5>Contatos</h5>

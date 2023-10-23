@@ -1,5 +1,27 @@
 .Sectiontwo{
     background-color: aqua;
     width: 100%;
-    height: 1000px;
 }
+
+
+section{
+    display: grid;
+    grid-auto-flow:column;
+    justify-content:space-around;
+    
+    
+}
+
+
+section img{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+
+
+
+
+
