@@ -4,6 +4,7 @@ import Navbar from './componentes/secao/Navbar';
 import Sectionone from './componentes/secao/Sectionone';
 import Sectiontwo from './componentes/secao/Sectiontwo';
 import Footer from './componentes/secao/Footer';
+import Carrossel from '../src/componentes/Carrossel';
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <Navbar></Navbar>
       <Sectionone></Sectionone>
       <Sectiontwo></Sectiontwo>
+      <Carrossel></Carrossel>
       <Footer></Footer>
+      
     </div>
   );
 }
